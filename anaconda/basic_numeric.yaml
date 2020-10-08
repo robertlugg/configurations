@@ -1,0 +1,28 @@
+# Conda environment description
+#  conda env create --file environment.yaml
+name:  tensorflow_202010
+dependencies:
+  - python
+  - ncurses
+  - pip
+  - pip:
+    - psutil
+    - pillow
+    - numpy
+    - matplotlib
+    - jupyterlab
+    - ipython
+    - pandas
+    - pydot
+    - graphviz
+    - opencv-python
+    - more-termcolor
+    - tensorflow
+    - tensorflow_datasets
+    - tqdm
+    - pyyaml
+    - black
+    - pycodestyle
+    - pylint
+    - autopep8
+prefix: 
